@@ -1,0 +1,8 @@
+﻿Group: Payment methods
+FriendlyName: Payu Turkish Payment
+SystemName: Payments.PayU
+Version: 1.25
+SupportedVersions: 3.80
+Author: Emrah Mersinli
+DisplayOrder: 1
+FileName: Nop.Plugin.Payments.PayU.dll

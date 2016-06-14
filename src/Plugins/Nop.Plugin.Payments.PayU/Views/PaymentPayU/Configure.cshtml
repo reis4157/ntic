@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "";
+}
+@model ConfigurationModel
+@using Nop.Plugin.Payments.PayU.Models;
+@using Nop.Web.Framework;
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <table class="adminContent">
+        <tr>
+            <td class="adminTitle" style="width: 80px;">
+                İşyeri Entegrasyon İsmi:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.IsyeriKodu)
+            </td>
+        </tr>
+        <tr>
+            <td class="adminTitle" style="width: 80px;">
+                Kodlama Anahtarı:
+            </td>
+            <td class="adminData">
+                @Html.EditorFor(model => model.Anahtar)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" width="100%">
+                <button type="submit" name="save" value="save" class="t-button">
+                    Kaydet</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <br />
+                <br />
+            </td>
+        </tr>
+    </table>
+    
+}
