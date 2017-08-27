@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=.;Initial Catalog=DOGALCOSMO;Integrated Security=True
