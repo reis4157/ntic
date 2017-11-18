@@ -410,47 +410,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\InstalledPlugins.txt" />
-    <Content Include="App_Data\Install\create_required_data.sql" />
-    <Content Include="App_Data\Localization\Installation\installation.ar.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.bg.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.bn-bd.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.bs-Latn-BA.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.cz.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.da.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.de.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.fr.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.gr.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.he.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.hi.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.hr-HR.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.hu.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.hy-am.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.is.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.it.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.jp.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.lt.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.nl.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.pl.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.pt-br.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.ro.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.ru.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Data\Localization\Installation\installation.en.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Data\Localization\Installation\installation.sk.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.sp.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.sv.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.tr.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.ur.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.vi.xml" />
-    <Content Include="App_Data\Localization\Installation\installation.zhs.xml" />
-    <Content Include="App_Data\Install\SqlServer.StoredProcedures.sql" />
-    <Content Include="App_Data\Localization\defaultResources.nopres.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="App_Data\Install\SqlServer.Indexes.sql" />
     <Content Include="Content\BBEditor\ed.js" />
     <Content Include="Content\BBEditor\images\bold.gif" />
     <Content Include="Content\BBEditor\images\code.gif" />

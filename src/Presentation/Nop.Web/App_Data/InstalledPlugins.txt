@@ -5,7 +5,6 @@ DiscountRequirement.MustBeAssignedToCustomerRole
 CurrencyExchange.ECB
 ExternalAuth.Facebook
 Misc.FacebookShop
-Payments.CheckMoneyOrder
 Payments.Manual
 Payments.PayPalDirect
 Payments.AuthorizeNet
@@ -27,3 +26,4 @@ Widgets.NivoSlider
 Payments.Payu
 Payments.Skrill
 Payments.PayInStore
+Payments.Iyzico

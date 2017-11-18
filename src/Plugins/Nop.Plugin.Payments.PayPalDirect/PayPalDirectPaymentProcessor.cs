@@ -44,8 +44,10 @@ namespace Nop.Plugin.Payments.PayPalDirect
 
         public PayPalDirectPaymentProcessor(PayPalDirectPaymentSettings paypalDirectPaymentSettings,
             ISettingService settingService, 
-            ICurrencyService currencyService, ICustomerService customerService,
-            CurrencySettings currencySettings, IWebHelper webHelper, 
+            ICurrencyService currencyService, 
+            ICustomerService customerService,
+            CurrencySettings currencySettings, 
+            IWebHelper webHelper, 
             IOrderTotalCalculationService orderTotalCalculationService)
         {
             this._paypalDirectPaymentSettings = paypalDirectPaymentSettings;
