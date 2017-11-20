@@ -6,6 +6,7 @@ namespace Nop.Plugin.Payments.Iyzico.Iyzipay.Model
     {
         public String Id { get; set; }
         public String Price { get; set; }
+        public Decimal PriceAmount { get; set; }
         public String Name { get; set; }
         public String Category1 { get; set; }
         public String Category2 { get; set; }

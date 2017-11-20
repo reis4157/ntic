@@ -18,6 +18,7 @@ using Nop.Core.Domain.Directory;
 using Nop.Core;
 using Nop.Core.Domain.Customers;
 using System.Globalization;
+using System.Linq;
 
 namespace Nop.Plugin.Payments.Iyzico
 {
@@ -89,7 +90,8 @@ namespace Nop.Plugin.Payments.Iyzico
             request.ShippingAddress = GetShippingAdress(customer);
             request.BillingAddress = GetBillingAddress(customer);
             request.BasketItems = GetBasketItems(customer);
-
+            //kargo haric urunlerin fiyatý.
+            request.Price = request.BasketItems.Sum(f => f.PriceAmount).ToString(CultureInfo.GetCultureInfo("en-US"));
             IyziPayment payment = IyziPayment.Create(request, _options);
             if (payment.Status == Status.SUCCESS.ToString())
             {
@@ -132,6 +134,7 @@ namespace Nop.Plugin.Payments.Iyzico
                     i++;
                 }
                 firstBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
+                firstBasketItem.PriceAmount = item.Product.Price;
                 firstBasketItem.Price = item.Product.Price.ToString(CultureInfo.GetCultureInfo("en-US"));
                 basketItems.Add(firstBasketItem);
             }
